@@ -2,7 +2,11 @@
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { DATA } from "@/data/resume";
-import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
+import {
+  Timeline,
+  TimelineItem,
+  TimelineConnectItem,
+} from "@/components/timeline";
 
 export default function certificatesSection() {
   return (
@@ -12,21 +16,29 @@ export default function certificatesSection() {
           <div className="flex items-center w-full">
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
-              <span className="text-background text-sm font-medium">Certificates</span>
+              <span className="text-background text-sm font-medium">
+                Certificates
+              </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
           </div>
           <div className="flex flex-col gap-y-3 items-center justify-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">I like building things</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+              I like learning a lot of things
+            </h2>
             <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance text-center">
               {/* During my time in university, I attended {DATA.certificates.length}+ */}
-              I have completed various certifications to enhance my skills and knowledge in the field of web development.
+              I have completed various certifications to enhance my skills and
+              knowledge in the field of web development.
             </p>
           </div>
         </div>
         <Timeline>
           {DATA.certificates.map((certificate) => (
-            <TimelineItem key={certificate.title + certificate.dates} className="w-full flex items-start justify-between gap-10">
+            <TimelineItem
+              key={certificate.title + certificate.dates}
+              className="w-full flex items-start justify-between gap-10"
+            >
               <TimelineConnectItem className="flex items-start justify-center">
                 {certificate.image ? (
                   <img
@@ -40,13 +52,19 @@ export default function certificatesSection() {
               </TimelineConnectItem>
               <div className="flex flex-1 flex-col justify-start gap-2 min-w-0">
                 {certificate.dates && (
-                  <time className="text-xs text-muted-foreground">{certificate.dates}</time>
+                  <time className="text-xs text-muted-foreground">
+                    {certificate.dates}
+                  </time>
                 )}
                 {certificate.title && (
-                  <h3 className="font-semibold leading-none">{certificate.title}</h3>
+                  <h3 className="font-semibold leading-none">
+                    {certificate.title}
+                  </h3>
                 )}
                 {certificate.location && (
-                  <p className="text-sm text-muted-foreground">{certificate.location}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {certificate.location}
+                  </p>
                 )}
                 {certificate.description && (
                   <p className="text-sm text-muted-foreground leading-relaxed wrap-break-word">
