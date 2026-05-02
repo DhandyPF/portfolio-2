@@ -64,7 +64,7 @@ export const DATA = {
       Instagram: {
         name: "Instagram",
         url: "https://www.instagram.com/dhandyputra.f/",
-        icon: Icons.x,
+        icon: Icons.instagram,
         navbar: true,
       },
 
