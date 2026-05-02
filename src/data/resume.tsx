@@ -61,9 +61,9 @@ export const DATA = {
         navbar: true,
       },
 
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/dhandyputra.f/",
         icon: Icons.x,
         navbar: true,
       },
@@ -77,7 +77,7 @@ export const DATA = {
 
       email: {
         name: "Send Email",
-        url: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDfXfstTrZrwMvxKkDmTnRRhBnHkKVWVhLMHskVkZWwHHnQrfmXgTxdlnbNgJFvgXttrxC",
+        url: "mailto:dhandy.pf@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
