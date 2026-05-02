@@ -14,7 +14,7 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
   name: "Dhandy Putra Fahruddin",
-  initials: "DV",
+  initials: "DPF",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
