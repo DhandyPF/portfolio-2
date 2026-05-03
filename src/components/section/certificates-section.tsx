@@ -61,17 +61,17 @@ export default function certificatesSection() {
                     {certificate.title}
                   </h3>
                 )}
-                {certificate.location && (
+                {/* {certificate.location && (
                   <p className="text-sm text-muted-foreground">
                     {certificate.location}
                   </p>
-                )}
+                )} */}
                 {certificate.description && (
                   <p className="text-sm text-muted-foreground leading-relaxed wrap-break-word">
                     {certificate.description}
                   </p>
                 )}
-                {/* {certificate.links && certificate.links.length > 0 && (
+                {certificate.links && certificate.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
                     {certificate.links.map((link, idx) => (
                       <Link
@@ -85,10 +85,9 @@ export default function certificatesSection() {
                           {link.title}
                         </Badge>
                       </Link>
-                    ))
-                    }
+                    ))}
                   </div>
-                )} */}
+                )}
               </div>
             </TimelineItem>
           ))}

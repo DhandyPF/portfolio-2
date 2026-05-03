@@ -296,27 +296,37 @@ export const DATA = {
   ],
 
   certificates: [
-    {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+   {
+      title: "Memulai Pemrograman Dengan Java",
+      dates: "December 1st, 2025",
+      // location: "San Francisco, California",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      links: [
+        {
+          title: "Dicoding",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://www.dicoding.com/certificates/1OP8JMONLPQK",
+        },
+      ],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "Memulai Pemrograman Dengan C",
+      dates: "December 14th, 2025",
+      // location: "San Francisco, California",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      links: [
+        {
+          title: "Dicoding",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://www.dicoding.com/certificates/4EXG3GMNQZRL",
+        },
+      ],
     },
   ],
 } as const;
