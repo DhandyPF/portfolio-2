@@ -22,7 +22,7 @@ export const DATA = {
     "Software Engineer. I love building things and learning a lot of things. Very active on Discord.",
   summary:
     ".",
-  avatarUrl: "/me.png",
+  avatarUrl: "/aku.jpg",
 
   skills: [
     { name: "React", icon: ReactLight },
@@ -303,7 +303,7 @@ export const DATA = {
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "/public/dicoding.jpg",
       links: [
         {
           title: "Dicoding",
@@ -319,7 +319,7 @@ export const DATA = {
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "/public/dicoding.jpg",
       links: [
         {
           title: "Dicoding",
