@@ -20,22 +20,21 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Software Engineer. I love building things and learning a lot of things. Very active on Discord.",
-  summary:
-    ".",
-  avatarUrl: "/aku.jpg",
+  summary: ".",
+  avatarUrl: "/image.jpg",
 
   skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+    // { name: "React", icon: ReactLight },
+    // { name: "Next.js", icon: NextjsIconDark },
+    // { name: "Typescript", icon: Typescript },
+    // { name: "Node.js", icon: Nodejs },
+    // { name: "Python", icon: Python },
+    // { name: "Go", icon: Golang },
+    // { name: "Postgres", icon: Postgresql },
+    // { name: "Docker", icon: Docker },
+    // { name: "Kubernetes", icon: Kubernetes },
+    // { name: "Java", icon: Java },
+    // { name: "C++", icon: Csharp },
   ],
 
   navbar: [
@@ -171,34 +170,34 @@ export const DATA = {
   ],
 
   projects: [
-    {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+    // {
+    //   title: "Chat Collect",
+    //   href: "https://chatcollect.com",
+    //   dates: "Jan 2024 - Feb 2024",
+    //   active: true,
+    //   description:
+    //     "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Stripe",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://chatcollect.com",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    // },
     // {
     //   title: "Magic UI",
     //   href: "https://magicui.design",
@@ -296,14 +295,13 @@ export const DATA = {
   ],
 
   certificates: [
-   {
+    {
       title: "Memulai Pemrograman Dengan Java",
       dates: "December 1st, 2025",
       // location: "San Francisco, California",
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "/public/dicoding.jpg",
+      image: "/dicoding.jpg",
       links: [
         {
           title: "Dicoding",
@@ -318,8 +316,7 @@ export const DATA = {
       // location: "San Francisco, California",
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "/public/dicoding.jpg",
+      image: "/dicoding.jpg",
       links: [
         {
           title: "Dicoding",
