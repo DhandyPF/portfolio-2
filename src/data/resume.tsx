@@ -24,17 +24,17 @@ export const DATA = {
   avatarUrl: "/image.jpg",
 
   skills: [
-    // { name: "React", icon: ReactLight },
-    // { name: "Next.js", icon: NextjsIconDark },
+    { name: "React", icon: ReactLight },
+    { name: "Next.js", icon: NextjsIconDark },
     // { name: "Typescript", icon: Typescript },
     // { name: "Node.js", icon: Nodejs },
     // { name: "Python", icon: Python },
-    // { name: "Go", icon: Golang },
+    { name: "Go", icon: Golang },
     // { name: "Postgres", icon: Postgresql },
     // { name: "Docker", icon: Docker },
     // { name: "Kubernetes", icon: Kubernetes },
     // { name: "Java", icon: Java },
-    // { name: "C++", icon: Csharp },
+    { name: "C++", icon: Csharp },
   ],
 
   navbar: [
